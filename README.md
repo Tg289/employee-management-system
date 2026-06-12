@@ -1,20 +1,101 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Employee Management System
 
-# Run and deploy your AI Studio app
+A full-stack Employee Management System built with Next.js, TypeScript, Prisma, PostgreSQL (Neon), Tailwind CSS, and NextAuth.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/ee93b11b-2da9-48ac-a73b-63c988946e29
+- Admin Authentication
+- Employee CRUD Operations
+- Employee Search
+- Department Analytics
+- Dashboard Statistics
+- Secure Database Integration
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- Next.js
+- TypeScript
+- Prisma ORM
+- PostgreSQL (Neon)
+- NextAuth
+- Tailwind CSS
 
+## Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+npm install
+npm run dev
+
+# Employee Management System
+
+A full-stack Employee Management System built with Next.js, TypeScript, Prisma, PostgreSQL (Neon), Tailwind CSS, and NextAuth.
+
+## Features
+
+- Admin Authentication
+- Employee CRUD Operations
+- Employee Search
+- Department Analytics
+- Dashboard Statistics
+- Secure Database Integration
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- Prisma ORM
+- PostgreSQL (Neon)
+- NextAuth
+- Tailwind CSS
+
+## Installation
+
+npm install
+npm run dev
+
+## Environment Variables
+Create a .env.local file:
+
+DATABASE_URL="postgresql://neondb_owner:npg_9qAoyh6VmIed@ep-square-tooth-adfmtlqq-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+
+NEXTAUTH_URL="http://localhost:3000"
+
+NEXTAUTH_SECRET="employee-management-system-secret-key-2026"
+
+## Demo Credentials
+Email: admin@company.com
+Password: admin123
+
+## Project Structure
+
+app/
+components/
+actions/
+lib/
+prisma/
+
+## Build
+
+npm run build
+
+## Screenshots
+
+### Dashboard
+
+![Dashboard](./screenshots/dashboard-overview.png)
+
+### Employee Directory
+
+![Employee Directory](./screenshots/employee-directory.png)
+
+### Create Employee
+
+![Create Employee](./screenshots/create-employee.png)
+
+### Search Employee
+
+![Search Employee](./screenshots/search-employee.png)
+
+### Login Page
+
+![Login Page](./screenshots/login-page.png)
+
