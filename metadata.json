@@ -1,0 +1,6 @@
+{
+  "name": "Employee Management System",
+  "description": "Production-ready Enterprise Employee Management System with Role-Based Access, Prisma, SQL, and NextAuth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
