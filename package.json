@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/run-next.js dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "node scripts/run-next.js start",
     "clean": "rm -rf .next dist dev.db",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
